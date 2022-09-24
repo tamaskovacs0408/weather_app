@@ -2,6 +2,7 @@ import React from "react";
 import "./CurrentWeather.css";
 
 const CurrentWeather = ({ data }) => {
+  
   return (
     <div className="weather">
       <div className="top">
@@ -9,7 +10,7 @@ const CurrentWeather = ({ data }) => {
           <p className="city">{data.city}</p>
         </div>
       </div>
-      <div className="bottom">
+      <div className="center">
         <p className="temperature">{(data.main.temp).toFixed(1)}°C</p>
         <div className="details">
           <div className="parameter-row">
@@ -22,6 +23,10 @@ const CurrentWeather = ({ data }) => {
           <div className="parameter-row">
             <span className="parameter-label">Wind</span>
             <span className="parameter-value">{((data.wind.speed) * 3.6).toFixed(1)} km/h</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label">Clouds</span>
+            <span className="parameter-value">{data.clouds.all}%</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Humidity</span>
