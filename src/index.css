@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Roboto', 'Arial' !important;
+  font-family: 'Azeret Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #d5d4d4;
