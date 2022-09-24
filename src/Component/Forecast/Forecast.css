@@ -14,8 +14,11 @@
   display: flex;
   font-size: 14px;
   padding: 5px 20px;
+  transition: all 0.15s linear;
 }
-
+.daily-item:hover {
+  background-color: #fffcfc;
+}
 
 .daily-item .day {
   cursor: inherit;
