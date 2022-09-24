@@ -16,9 +16,6 @@
   padding: 5px 20px;
 }
 
-.icon-small {
-  width: 40px;
-}
 
 .daily-item .day {
   cursor: inherit;
@@ -26,13 +23,6 @@
   flex: 1 1;
   font-weight: 600;
   margin-left: 15px;
-}
-
-.description {
-  cursor: inherit;
-  flex: 1 1;
-  margin-right: 25px;
-  text-align: left;
 }
 
 .min-max {
