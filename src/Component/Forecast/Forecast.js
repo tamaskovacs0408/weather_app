@@ -33,7 +33,9 @@ const Forecast = ({ data }) => {
             <AccordionItemHeading>
               <AccordionItemButton>
                 <div className="daily-item">
+                  <img className="icon-small" src={process.env.PUBLIC_URL + `/icons/${item.weather[0].icon}.png`} alt="weather" />
                   <label className="day">{forecastDays[idx]}</label>
+                  <label className="description">{item.weather[0].description}</label>
                   <label className="min-max">
                     {item.main.temp_min.toFixed(1)}°C /{" "}
                     {item.main.temp_max.toFixed(1)}°C
