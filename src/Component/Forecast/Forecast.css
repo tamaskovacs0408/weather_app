@@ -20,6 +20,10 @@
   background-color: #fffcfc;
 }
 
+.icon-small {
+  width: 40px;
+}
+
 .daily-item .day {
   cursor: inherit;
   color: #212121;
