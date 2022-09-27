@@ -8,11 +8,7 @@
   padding: 0 20px 20px 20px;
 }
 
-.top {
-  display: flex;
-  justify-content: center;
-}
-.center {
+.top, .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,6 +20,17 @@
   line-height: 1;
   margin-top: 15px;
   letter-spacing: 1px;
+}
+
+.weather-decription {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 100px;
 }
 
 .temperature {
