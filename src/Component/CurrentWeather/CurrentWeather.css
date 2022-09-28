@@ -101,3 +101,31 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (min-width: 992px){
+  .weather {
+    width: 500px;
+  }
+  .top {
+    justify-content: space-around;
+  }
+  .weather-description {
+    font-size: 2rem;
+  }
+  .temperature {
+    font-size: 5rem;
+  }
+  .details {
+    padding-left: 40px;
+  }
+  .parameter-label.top {
+    font-size: 2rem;
+  }
+  .parameter-label {
+    font-size: 1.8rem;
+  }
+  .parameter-value {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px black;
+  }
+}
