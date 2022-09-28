@@ -4,7 +4,7 @@ import "./CurrentWeather.css";
 const CurrentWeather = ({ data }) => {
   
   return (
-    <div className="weather">
+    <div className="weather animate__animated animate__zoomIn">
       <div className="top">
         <div>
           <p className="city">{data.city}</p>

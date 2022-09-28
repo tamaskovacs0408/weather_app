@@ -32,7 +32,7 @@ const Forecast = ({ data }) => {
           <AccordionItem key={idx}>
             <AccordionItemHeading>
               <AccordionItemButton>
-                <div className="daily-item">
+                <div className="daily-item animate__animated animate__slideInLeft">
                   <img className="icon-small" src={process.env.PUBLIC_URL + `/icons/${item.weather[0].icon}.png`} alt="weather" />
                   <label className="day">{forecastDays[idx]}</label>
                   <label className="description">{item.weather[0].description}</label>
@@ -44,7 +44,7 @@ const Forecast = ({ data }) => {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <div className="daily-details-grid">
+              <div className="daily-details-grid animate__animated animate__fadeIn">
                 <div className="daily-details-grid-item">
                   <label>Pressure</label>
                   <label>{item.main.pressure} hPa</label>
