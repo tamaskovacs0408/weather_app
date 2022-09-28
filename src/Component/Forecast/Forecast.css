@@ -1,6 +1,7 @@
 .title {
-  font-size: 23px;
+  font-size: 2.3rem;
   font-weight: 700;
+  text-align: center;
   margin: 20px 0 10px 10px;
   color: white;
 }
@@ -13,7 +14,6 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 14px;
   padding: 5px 10px;
   color: #212121;
   transition: all 0.15s linear;
@@ -28,7 +28,6 @@
 }
 
 .daily-item .day {
-  cursor: inherit;
   flex: 1 1;
   font-size: 1.2rem;
   font-weight: 600;
@@ -74,4 +73,25 @@
 
 .daily-details-grid-item label:last-child {
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px){
+  .title {
+    font-size: 2.8rem;
+  }
+  .icon-small {
+    width: 45px;
+  }
+  .daily-item .day {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1.4rem;
+  }
+  .min-max {
+    font-size: 1.5rem;
+  }
+  .daily-details-grid-item {
+    font-size: 1.5rem;
+  }
 }
