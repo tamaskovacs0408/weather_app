@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #acacac;
+  background-image: url('./bg_image.jpg');
+  background-size: cover;
 }
 
 code {
