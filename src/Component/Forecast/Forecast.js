@@ -61,10 +61,6 @@ const Forecast = ({ data }) => {
                   <label>Wind speed</label>
                   <label>{(item.wind.speed * 3.6).toFixed(1)} km/h</label>
                 </div>
-                <div className="daily-details-grid-item">
-                  <label>Feels like</label>
-                  <label>{item.main.feels_like.toFixed(1)}°C</label>
-                </div>
               </div>
             </AccordionItemPanel>
           </AccordionItem>
