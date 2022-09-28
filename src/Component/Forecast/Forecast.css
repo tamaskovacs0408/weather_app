@@ -95,3 +95,31 @@
     font-size: 1.5rem;
   }
 }
+
+@media screen and (min-width: 992px){
+  .title {
+    font-size: 3rem;
+  }
+  .daily-item {
+    width: 90%;
+    margin: 15px auto 15px auto;
+  }
+  .daily-item .day {
+    font-size: 1.8rem;
+    max-width: 300px;
+  }
+  .description {
+    text-align: left;
+    flex: 1 1;
+    font-size: 1.8rem;
+  }
+  .min-max {
+    font-size: 1.7rem;
+  }
+
+  .daily-details-grid {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
