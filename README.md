@@ -8,11 +8,11 @@ You can get the current and the 7 days forecast weather with this React Weather 
 
 **Sources**
 
-<a href="http://geodb-cities-api.wirefreethought.com/">GeoDB API</a>
-<a href="https://openweathermap.org/api">OpenWeatherMap API</a>
-<a href="https://sass-lang.com/">SASS</a>
-<a href="https://www.npmjs.com/package/react-select-async-paginate">React Async Paginate</a>
-<a href="https://www.npmjs.com/package/react-accessible-accordion">React Accessible Accordion</a>
+  - <a href="http://geodb-cities-api.wirefreethought.com/">GeoDB API</a>
+  - <a href="https://openweathermap.org/api">OpenWeatherMap API</a>
+  - <a href="https://sass-lang.com/">SASS</a>
+  - <a href="https://www.npmjs.com/package/react-select-async-paginate">React Async Paginate</a>
+  - <a href="https://www.npmjs.com/package/react-accessible-accordion">React Accessible Accordion</a>
 
 
 **Screenshots**
